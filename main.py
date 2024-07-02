@@ -5,6 +5,8 @@ def foldandswap(numbers):
     # Get length of the list
     lenlist = len(numbers)
 
+    # Iterate through first half of the list
+    for i in range(lenlist // 2):
 
 
 def main():
