@@ -2,11 +2,9 @@ import random
 
 
 def foldandswap(numbers):
-    """
-    ########################################
-    Code Your Program here
-    ########################################
-    """
+    # Get length of the list
+    lenlist = len(numbers)
+
 
 
 def main():
