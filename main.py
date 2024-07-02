@@ -7,6 +7,8 @@ def foldandswap(numbers):
 
     # Iterate through first half of the list
     for i in range(lenlist // 2):
+        # Swap the element at index i with its opposite element
+        numbers[i], numbers[lenlist - i - 1] = numbers[lenlist - i - 1], numbers[i]
 
 
 def main():
